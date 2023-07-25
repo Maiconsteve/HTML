@@ -233,5 +233,18 @@ footer{
     color: white;
 }
 
+#instagram{
+    color: white;
+    text-decoration: none;
+
+}
+#instagram:hover{
+    color: #53B073;
+}
+
+abbr{
+    text-decoration: none;
+}
+
 
 
