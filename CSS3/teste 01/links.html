@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piseudo Elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkgray;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+
+        }
+        .especial::before {
+            content: '=>';
+        }
+        .especial::after{
+            content:'<='
+            
+            
+        }
+        li > .escondido {
+            display: none;
+        }
+        li:hover > .escondido{
+            display: block;
+            color: black;
+            background-color:  rgba(218, 41, 41, 0.75);
+            width: 300px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/"  target="_blank" class="especial">Facebook</a>
+            <p class="escondido">Fcebook do Maicon Souza...</p>
+        </li>
+        
+        <li><a href="https://www.instagram.com/"  target="_blank" class="especial">Instagram</a></li>
+        <li><a href="https://www.youtube.com/"  target="_blank">YouTube</a></li>
+    </ul>
+</body>
+</html>

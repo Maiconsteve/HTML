@@ -1,0 +1,149 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: creepster;
+    src: url(fontes/Creepster-Regular.ttf) format('truetype'); 
+   }
+   @font-face {
+    font-family: monoton;
+    src: url(fontes/monoton.ttf) format('truetype');
+   }
+@font-face {
+    font-family: pixel2p;
+    src: url(fontes/pixel2p.ttf ) format('truetype');
+}
+
+body{
+    
+    background-image: linear-gradient(to right,#000000,#283838, #C3D8D6);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #7e0eaab6;
+    width: 750px;
+    
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+   #box{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #7e0eaab6;
+        width: 750px;
+        height: 550px;
+        padding: 10px;
+        margin: auto;
+    }
+
+
+
+h1{
+    text-align: center;
+    font-family: creepster;
+    text-shadow: 5px 5px 15px grey;
+    height: 100px;
+  
+
+}
+h2{
+    text-align: center;
+    font-family: pixel2p;
+    font-size: 16px;
+
+}
+
+h3{
+    font-family: monoton;
+    text-align: center;
+   
+    
+    
+    
+    
+  
+}
+h3:hover{
+    color:#283838 ;
+    text-align: center;
+
+  
+    
+    
+}
+h3:hover > .ptexto{
+    
+    display: block;
+    
+    
+}
+h3 > .ptexto{
+    display:none;
+
+}
+.ptexto{
+    
+    font-family: creepster;
+    font-weight: lighter;
+    font-size: 25px;
+    color: grey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #7e0eaab6;
+    width: 650px;
+    height: 100px;
+    padding: 10px;
+    margin: auto;
+    background-color: black
+    
+    
+}
+.li1:hover{
+    text-decoration: underline;
+    color: grey;
+    font-size: 20px;
+    font-family: serif;
+
+}
+.li1 > .li2{
+    display:none; 
+}
+.li1:hover > .li2{
+    display:block;
+}
+a:active{
+    color: green;
+}
+.pvi{
+    font-family: monoton;
+    font-size: 20px;
+    text-align: center;
+}
+   
+ 
+ 
+ .pvi:hover{
+    font-size: 30px;
+    color: crimson;
+    text-decoration: underline;
+
+ }
+
+ .pvi > div{
+    display: none;
+ 
+ }
+
+ p > audio{
+    display: none;
+ }
+ p:hover > audio{
+    display:block ;
+ }
+
+ video{
+margin: auto
+ };
+ 
