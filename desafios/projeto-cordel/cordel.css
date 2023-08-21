@@ -86,12 +86,13 @@ section > p{
     box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
     background-size: cover;
     background-attachment: fixed;
+    background-position: top center;;
 
 }
 
 #img01{
     background-image: url(imagens/background001.jpg);
-    background-position: center center;
+    
     
     
 }
@@ -101,5 +102,6 @@ section > p{
 
 footer > p{
     padding: 10px;
+}
 
 
