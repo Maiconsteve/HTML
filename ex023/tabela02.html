@@ -11,10 +11,16 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
         thead, tfoot{
             background-color: rgb(68, 64, 64);
             color: white;
+        }
+        thead >tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(68, 64, 64);
         }
         td, th{
             border: 1px solid black;
@@ -29,6 +35,13 @@
             background-color: rgb(196, 190, 190);
             padding: 10px;
         }
+        tbody > tr:nth-child(odd){
+            background-color: white;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+
     </style>
 </head>
 <body>
